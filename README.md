@@ -4,7 +4,7 @@
 [![Build](https://img.shields.io/badge/build-passing-%2357a9a9?style=for-the-badge)](https://github.com/default-services/icons)
 [![License](https://img.shields.io/github/license/default-services/icons?color=%2357a9a9&style=for-the-badge)](https://github.com/default-services/icons/blob/master/LICENSE)
 
-> A default, Font Awesome 5 (Free), icon library for React.
+> A Default, Font Awesome 5 (Free), icon library for React.
 <br>
 
 ## 🧪 Beta
