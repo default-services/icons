@@ -1,0 +1,62 @@
+{
+  "name": "@default-services/icons",
+  "version": "1.0.0",
+  "description": "A default, Font Awesome 5 (Free), icon library for React",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Daniel Wade",
+  "contributors": [
+    "Daniel Wade <wade.daniel.w@gmail.com> (https://github.com/iPzard)"
+  ],
+  "keywords": [
+    "icons",
+    "fontawesome",
+    "font awesome",
+    "react",
+    "library"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.0",
+    "@rollup/plugin-alias": "^3.1.0",
+    "@rollup/plugin-babel": "^5.0.2",
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-multi-entry": "^3.0.1",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babel-preset-minify": "^0.5.1",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-compat": "^3.7.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rollup": "^2.11.2"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "engines": {
+    "node": ">= 10.16.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/default-services/icons.git"
+  }
+}
