@@ -24,7 +24,7 @@ yarn add @default-services/icons
 <br>
 
 ## 🐱‍💻 Use
-The Default icon library includes all Font Awesome 5 (Free) icons; [brands](https://fontawesome.com/icons?d=gallery&s=brands), [regular](https://fontawesome.com/icons?d=gallery&s=regular), and [solid](https://fontawesome.com/icons?d=gallery&s=solid). You can determine the name of a Default icon components by doing the following:<br><br>
+The Default icon library includes all Font Awesome 5 (Free) icons; [brands](https://fontawesome.com/icons?d=gallery&s=brands), [regular](https://fontawesome.com/icons?d=gallery&s=regular), and [solid](https://fontawesome.com/icons?d=gallery&s=solid). You can determine the name of a Default icon component by doing the following:<br><br>
 
 1. Take the Font Awesome icon name.
 2. Remove the dashes.

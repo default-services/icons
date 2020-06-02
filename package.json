@@ -52,14 +52,6 @@
   "engines": {
     "node": ">= 10.16.0"
   },
-  "files": [
-    "brands.js.map",
-    "brands.js",
-    "regular.js.map",
-    "regular.js",
-    "solid.js.map",
-    "solid.js"
-  ],
   "publishConfig": {
     "access": "public"
   },
