@@ -9,7 +9,7 @@
 
 ## 🧪 Beta
 The Default icon library is still in its public beta stage; use at your own risk.
-<br>
+<br><br>
 
 ## 🐱‍🏍 Install
 
@@ -46,7 +46,7 @@ const MyComponent = props => {
   );
 };
 ```
-**Tip:** Notice in the example above, the icon is pulled from its respective subdirectory, "solid".
+**Tip:** Notice in the example above, the icon is pulled from its respective file, "solid".
 <br>
 
 ## 🐱‍👓 Learn
