@@ -66,5 +66,5 @@ Default is equipped with the latest and greatest tech stack, improve your develo
 
 ## 🏷️ License
 
-SIL OFL 1.1 © [Font Awesome](https://fontawesome.com/license/free)<br>
-MIT © [Default](https://github.com/default-services/icons/blob/master/LICENSE)
+MIT © [Default](https://github.com/default-services/icons/blob/master/LICENSE)<br>
+SIL OFL 1.1 © [Font Awesome](https://fontawesome.com/license/free)
