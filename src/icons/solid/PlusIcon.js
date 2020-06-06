@@ -1,7 +1,23 @@
 import React from 'react';
 
-export const PlusIcon = () => {
+export const PlusIcon = props => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"/></svg>
+    <article>
+      
+
+
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ 
+ viewBox="0 0 200 200" { ...props }>
+
+<g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
+>
+<path d="M830 1460 l0 -290 -290 0 -290 0 0 -170 0 -170 290 0 290 0 0 -290 0
+-290 170 0 170 0 0 290 0 290 290 0 290 0 0 170 0 170 -290 0 -290 0 0 290 0
+290 -170 0 -170 0 0 -290z"/>
+</g>
+</svg>
+
+    </article>
   );
 };

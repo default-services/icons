@@ -41,7 +41,6 @@ const iconDirectory = directory => ({
 });
 
 const config = [
-  'brands',
   'regular',
   'solid'
 ].map(icons => iconDirectory(icons));

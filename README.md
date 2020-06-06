@@ -4,7 +4,7 @@
 [![Build](https://img.shields.io/badge/build-passing-%2357a9a9?style=for-the-badge)](https://github.com/default-services/icons)
 [![License](https://img.shields.io/github/license/default-services/icons?color=%2357a9a9&style=for-the-badge)](https://github.com/default-services/icons/blob/master/LICENSE)
 
-> A Default, Font Awesome 5 (Free), icon library for React.
+> A Default icon library for React.
 <br>
 
 ## 🧪 Beta
@@ -24,14 +24,8 @@ yarn add @default-services/icons
 <br>
 
 ## 🐱‍💻 Use
-The Default icon library includes all Font Awesome 5 (Free) icons; [brands](https://fontawesome.com/icons?d=gallery&s=brands), [regular](https://fontawesome.com/icons?d=gallery&s=regular), and [solid](https://fontawesome.com/icons?d=gallery&s=solid). You can determine the name of a Default icon component by doing the following:<br><br>
-
-1. Take the Font Awesome icon name.
-2. Remove the dashes.
-3. Change its case to PascalCase.
-4. Add "Icon" suffix.
-<br>
-For example, the Font Awesome icon `address-book` is named `AddressBookIcon` in the Default icon library.<br><br>
+The Default icon library includes several basic icons to help get you started, allowing you to pass props such as; `onClick`, `className`, and most others to assist with styles and event handling.
+<br><br>
 
 
 ```jsx
@@ -66,5 +60,4 @@ Default is equipped with the latest and greatest tech stack, improve your develo
 
 ## 🏷️ License
 
-MIT © [Default](https://github.com/default-services/icons/blob/master/LICENSE)<br>
-SIL OFL 1.1 © [Font Awesome](https://fontawesome.com/license/free)
+MIT © [Default](https://github.com/default-services/icons/blob/master/LICENSE)
