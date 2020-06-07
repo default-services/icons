@@ -5,6 +5,7 @@ node_modules
 
 # builds
 dist
+src
 .rpt2_cache
 
 # misc
