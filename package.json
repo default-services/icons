@@ -1,9 +1,11 @@
 {
   "name": "@default-services/icons",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Default icon library for React",
   "scripts": {
-    "build": "rollup -c"
+    "build": "node index && rollup -c",
+    "build:project": "rollup -c",
+    "build:icons":"node index"
   },
   "author": "Daniel Wade",
   "contributors": [
