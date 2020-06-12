@@ -1,8 +1,9 @@
 const fs = require('fs');
-const folders = ['./icons/svg/regular', './icons/svg/solid'];
+const folders = ['./icons/svg/brands', './icons/svg/regular', './icons/svg/solid'];
 
 // Method to clean up SVG 'strings'
 const add = string => {
+
   return string
     .replace(/<\?xml (.*?)\?>/g, '')
     .replace(/<!DOCTYPE(.*?)>/g, '')
@@ -14,9 +15,12 @@ const add = string => {
     .replace(/fill="(.*?)"/g, '')
     .replace(/opacity="(.*?)"/g, '')
     .replace(/stroke="(.*?)"/g, '')
+    .replace(/stroke-width="(.*?)"/g, '')
     .replace(/<g >/g, '<g>')
     .replace(/path {3}/g, 'path ')
+    .replace(/path /g, 'path fill="currentColor" stroke="currentColor" stroke-width="1" ')
     .replace(/svg {3}/g, 'svg ')
+    .replace(/svg /g, 'svg fill="currentColor" ')
     .replace(/(\r\n)+|\r+|\n+|\t+/igm, '')
     .replace(/"/g, "'")
 
@@ -26,8 +30,11 @@ const add = string => {
 
 const createMultipleFiles = (names, folder) => {
   names.forEach(name => {
-    const svg = fs.readFileSync(`${folder}/${name.originalFileName}`, { encoding: 'utf8' });
+    let svg = fs.readFileSync(`${folder}/${name.originalFileName}`, { encoding: 'utf8' });
 
+    // Fix slight top cut off on the emoji icons
+    if(name.componentName.toUpperCase().includes('EMOJI'))
+      svg = svg.replace(/viewBox="(.*?)"/g, 'viewBox="-5 -5 210 210"');
 
     // Template for component
     const component = 'import React from \'react\';' + '\n\n' +
