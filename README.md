@@ -7,7 +7,7 @@
 > A Default icon library for React.
 <br>
 
-## 🧪 Beta
+## 🧪&nbsp;&nbsp;&nbsp;&nbsp;Beta
 The Default icon library is still in its public beta stage; use at your own risk.
 <br><br>
 
@@ -54,6 +54,6 @@ Default component library utilizes technologies such as Babel to ensure all code
 | IE11, Edge| last 2 versions| last 2 versions| last 2 versions| last 2 versions| last 2 versions| last 2 versions
 <br><br>
 
-## 🏷️ License
+## 🏷️&nbsp;&nbsp;&nbsp;&nbsp;License
 
 MIT © [Default](https://github.com/default-services/icons/blob/master/LICENSE)
