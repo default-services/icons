@@ -7,7 +7,7 @@
 > A Default icon library for React.
 <br>
 
-## 🧪&nbsp;&nbsp;&nbsp;&nbsp;Beta
+## 🧪 Beta
 The Default icon library is still in its public beta stage; use at your own risk.
 <br><br>
 
