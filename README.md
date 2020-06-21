@@ -29,7 +29,7 @@ The Default icon library includes several basic icons to help get you started, a
 
 
 ```jsx
-import React, { Component } from 'react';
+import React from 'react';
 import { CheckIcon } from '@default-services/icons/solid';
 
 const MyComponent = props => {
