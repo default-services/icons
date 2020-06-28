@@ -1,6 +1,6 @@
 {
   "name": "@default-services/icons",
-  "version": "2.0.6",
+  "version": "2.0.8",
   "description": "Default icon library for React",
   "scripts": {
     "build": "node index && rollup -c",
