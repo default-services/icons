@@ -44,7 +44,7 @@ const MyComponent = props => {
 <br>
 
 ## 🐱‍👓 Learn
-Learn about the Default icon library by reviewing the [Default documentation](https://default.services).
+Learn more, with the [Default documentation](https://default.services).
 <br><br>
 
 ## 🐱‍🐉 Support
