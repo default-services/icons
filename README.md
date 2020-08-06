@@ -28,7 +28,7 @@ The Default icon library includes several basic icons to help get you started, a
 import React from 'react';
 import { CheckIcon } from '@default-services/icons/solid';
 
-const MyComponent = props => {
+const MyComponent = (props) => {
   return (
     <div>
       <CheckIcon />
