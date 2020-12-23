@@ -50,6 +50,10 @@ Default component library utilizes technologies such as Babel to ensure all code
 | IE11, Edge| last 2 versions| last 2 versions| last 2 versions| last 2 versions| last 2 versions| last 2 versions
 <br>
 
+## 🦟 Bugs
+Bugs reported on the project's [issues page](https://github.com/default-services/icons/issues) will be exterminated as quickly as possible, be sure to include steps to reproduce so they can be spotted easily.
+<br><br>
+
 ## 🏷️ License
 
 MIT © [Default](https://github.com/default-services/icons/blob/master/LICENSE)
