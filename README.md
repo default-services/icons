@@ -1,7 +1,7 @@
 # Default Icon Library
 
 [![NPM](https://img.shields.io/npm/v/@default-services/icons?color=%2357a9a9&style=for-the-badge)](https://www.npmjs.com/package/@default-services/icons)
-[![Build](https://img.shields.io/badge/build-passing-%2357a9a9?style=for-the-badge)](https://github.com/default-services/icons)
+[![Build](https://img.shields.io/badge/build-passing-%2357a9a9?style=for-the-badge)](https://github.com/default-services/icons#readme)
 [![License](https://img.shields.io/github/license/default-services/icons?color=%2357a9a9&style=for-the-badge)](https://github.com/default-services/icons/blob/master/LICENSE)
 
 > A Default icon library for React.
