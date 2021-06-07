@@ -4,7 +4,7 @@
 [![Build](https://img.shields.io/badge/build-passing-%2357a9a9?style=for-the-badge)](https://github.com/default-services/icons#readme)
 [![License](https://img.shields.io/github/license/default-services/icons?color=%2357a9a9&style=for-the-badge)](https://github.com/default-services/icons/blob/master/LICENSE)
 
-> A Default icon library for React.
+> Open-source and npm-published React icon library.
 <br>
 
 ## 🐱‍🏍 Install
